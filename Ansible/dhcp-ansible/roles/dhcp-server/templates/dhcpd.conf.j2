@@ -1,0 +1,77 @@
+default-lease-time 600;
+max-lease-time 7200;
+
+ddns-update-style none;
+
+authoritative;
+
+class "windows-clients" {
+  match if option vendor-class-identifier = "MSFT 5.0";
+}
+
+class "linux-clients" {
+  match if option vendor-class-identifier = "Linux";
+}
+
+{% if inventory_hostname == "dhcp1" %}
+failover peer "dhcp-failover" {
+  primary;
+  address 192.168.50.1;
+  port 647;
+  peer address 192.168.51.1;
+  peer port 647;
+  max-response-delay 60;
+  max-unacked-updates 10;
+  mclt 1800;
+  split 128;
+  load balance max seconds 3;
+}
+
+{% elif inventory_hostname == "dhcp2" %}
+failover peer "dhcp-failover" {
+  secondary;
+  address 192.168.51.1;
+  port 647;
+  peer address 192.168.50.1;
+  peer port 647;
+  max-response-delay 60;
+  max-unacked-updates 10;
+  load balance max seconds 3;
+}
+
+{% endif %}
+
+{% for subnet in subnets_clasificadas %}
+subnet {{ subnet.red }} netmask 255.255.255.0 {
+  option routers {{ subnet.router }};
+  option subnet-mask 255.255.255.0;
+  option broadcast-address {{ subnet.broadcast }};
+
+  pool {
+    failover peer "dhcp-failover";
+    allow members of "windows-clients";
+    range {{ subnet.windows_range }};
+  }
+
+  pool {
+    failover peer "dhcp-failover";
+    allow members of "linux-clients";
+    range {{ subnet.linux_range }};
+  }
+
+  pool {
+    failover peer "dhcp-failover";
+    deny members of "windows-clients";
+    deny members of "linux-clients";
+    range {{ subnet.otros_range }};
+    allow unknown-clients;
+  }
+}
+{% endfor %}
+
+{% for reserva in reservas %}
+host {{ reserva.nombre }} {
+  hardware ethernet {{ reserva.mac }};
+  fixed-address {{ reserva.ip }};
+}
+{% endfor %}

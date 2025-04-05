@@ -1,0 +1,2677 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+
+failover peer "dhcp-failover" state {
+  my state communications-interrupted at 5 2025/04/04 11:54:27;
+  partner state normal at 5 2025/04/04 11:46:24;
+  mclt 1800;
+}
+lease 192.168.70.10 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.11 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.12 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.13 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.14 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.15 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.16 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.17 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.18 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.19 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.20 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.21 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.22 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.23 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.24 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.25 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.26 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.27 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.28 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.29 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.30 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.31 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.32 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.33 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.34 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.35 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.36 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.37 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.38 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.39 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.40 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.41 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.42 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.43 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.44 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.45 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.46 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.47 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.48 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.49 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.50 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.51 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.52 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.53 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.54 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.101 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.102 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.103 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.104 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.105 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.106 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.107 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.108 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.109 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.110 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.111 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.112 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.113 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.114 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.115 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.116 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.117 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.118 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.119 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.120 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.121 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.122 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.123 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.124 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.125 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.126 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.127 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.128 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.129 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.130 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.161 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.162 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.163 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.164 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.165 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.166 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.167 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.168 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.169 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.170 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.171 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.172 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.173 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.174 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.175 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.176 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.177 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.178 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.179 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.180 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.181 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.182 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.183 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.184 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.185 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.186 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.187 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.188 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.189 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.70.190 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.10 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.11 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.12 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.13 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.14 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.15 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.16 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.17 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.18 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.19 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.20 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.21 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.22 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.23 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.24 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.25 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.26 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.27 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.28 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.29 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.30 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.31 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.32 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.33 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.34 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.35 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.36 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.37 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.38 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.39 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.40 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.41 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.42 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.43 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.44 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.45 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.46 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.47 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.48 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.49 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.50 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.51 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.52 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.53 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.54 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.132 {
+  starts 5 2025/04/04 12:06:58;
+  ends 5 2025/04/04 12:16:58;
+  tstp 5 2025/04/04 12:21:58;
+  tsfp 5 2025/04/04 12:06:47;
+  cltt 5 2025/04/04 12:06:58;
+  binding state expired;
+  next binding state free;
+  rewind binding state active;
+  hardware ethernet 08:00:27:e0:38:81;
+  set vendor-class-identifier = "Linux";
+  client-hostname "usuario-VirtualBox";
+}
+lease 192.168.60.101 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.102 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.103 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.104 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.105 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.106 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.107 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.108 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.109 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.110 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.111 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.112 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.113 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.114 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.115 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.116 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.117 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.118 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.119 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.120 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.121 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.122 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.123 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.124 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.125 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.126 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.127 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.128 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.129 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.130 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.191 {
+  starts 5 2025/04/04 12:00:19;
+  ends 5 2025/04/04 12:10:19;
+  tstp 5 2025/04/04 12:15:19;
+  tsfp 5 2025/04/04 12:06:34;
+  cltt 5 2025/04/04 12:00:19;
+  binding state expired;
+  next binding state free;
+  rewind binding state active;
+  hardware ethernet 08:00:27:e0:38:81;
+  uid "\001\010\000'\3408\201";
+  client-hostname "usuario-VirtualBox";
+}
+lease 192.168.60.161 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.162 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.163 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.164 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.165 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.166 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.167 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.168 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.169 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.170 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.171 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.172 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.173 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.174 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.175 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.176 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.177 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.178 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.179 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.180 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.181 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.182 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.183 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.184 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.185 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.186 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.187 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.188 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.189 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.60.190 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.10 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.11 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.12 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.13 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.14 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.15 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.16 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.17 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.18 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.19 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.20 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.21 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.22 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.23 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.24 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.25 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.26 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.27 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.28 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.29 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.30 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.31 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.32 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.33 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.34 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.35 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.36 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.37 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.38 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.39 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.40 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.41 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.42 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.43 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.44 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.45 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.46 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.47 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.48 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.49 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.50 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.51 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.52 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.53 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.54 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.101 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.102 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.103 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.104 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.105 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.106 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.107 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.108 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.109 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.110 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.111 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.112 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.113 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.114 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.115 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.116 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.117 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.118 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.119 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.120 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.121 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.122 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.123 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.124 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.125 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.126 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.127 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.128 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.129 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.130 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.161 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.162 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.163 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.164 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.165 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.166 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.167 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.168 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.169 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.170 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.171 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.172 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.173 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.174 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.175 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.176 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.177 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.178 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.179 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.180 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.181 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.182 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.183 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.184 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.185 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.186 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.187 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.188 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.189 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.51.190 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.10 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.11 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.12 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.13 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.14 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.15 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.16 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.17 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.18 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.19 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.20 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.21 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.22 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.23 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.24 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.25 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.26 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.27 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.28 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.29 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.30 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.31 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.32 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.33 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.34 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.35 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.36 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.37 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.38 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.39 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.40 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.41 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.42 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.43 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.44 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.45 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.46 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.47 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.48 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.49 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.50 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.51 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.52 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.53 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.54 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.101 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.102 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.103 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.104 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.105 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.106 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.107 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.108 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.109 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.110 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.111 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.112 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.113 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.114 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.115 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.116 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.117 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.118 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.119 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.120 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.121 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.122 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.123 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.124 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.125 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.126 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.127 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.128 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.129 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.130 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.161 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.162 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.163 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.164 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.165 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.166 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.167 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.168 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.169 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.170 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.171 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.172 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.173 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.174 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.175 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.176 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.177 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.178 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.179 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.180 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.181 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.182 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.183 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.184 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.185 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.186 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.187 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.188 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.189 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+lease 192.168.50.190 {
+  starts 5 2025/04/04 11:45:52;
+  tsfp 5 2025/04/04 11:45:52;
+  atsfp 5 2025/04/04 11:45:52;
+  binding state backup;
+}
+
+failover peer "dhcp-failover" state {
+  my state communications-interrupted at 5 2025/04/04 11:54:27;
+  partner state normal at 5 2025/04/04 11:46:24;
+  mclt 1800;
+}
+server-duid "\000\001\000\001/\202\202\355\010\000'U\266\000";
+
+
+failover peer "dhcp-failover" state {
+  my state communications-interrupted at 5 2025/04/04 11:54:27;
+  partner state normal at 5 2025/04/04 11:46:24;
+  mclt 1800;
+}
+
+failover peer "dhcp-failover" state {
+  my state communications-interrupted at 5 2025/04/04 11:54:27;
+  partner state communications-interrupted at 6 2025/04/05 00:22:27;
+  mclt 1800;
+}
+lease 192.168.60.132 {
+  starts 5 2025/04/04 12:06:58;
+  ends 5 2025/04/04 12:16:58;
+  tstp 5 2025/04/04 12:21:58;
+  tsfp 5 2025/04/04 12:06:47;
+  cltt 5 2025/04/04 12:06:58;
+  binding state expired;
+  next binding state free;
+  hardware ethernet 08:00:27:e0:38:81;
+  set vendor-class-identifier = "Linux";
+  client-hostname "usuario-VirtualBox";
+}
+lease 192.168.60.191 {
+  starts 5 2025/04/04 12:00:19;
+  ends 5 2025/04/04 12:10:19;
+  tstp 5 2025/04/04 12:15:19;
+  tsfp 5 2025/04/04 12:06:34;
+  cltt 5 2025/04/04 12:00:19;
+  binding state expired;
+  next binding state free;
+  hardware ethernet 08:00:27:e0:38:81;
+  uid "\001\010\000'\3408\201";
+  client-hostname "usuario-VirtualBox";
+}
+
+failover peer "dhcp-failover" state {
+  my state normal at 6 2025/04/05 00:22:27;
+  partner state communications-interrupted at 6 2025/04/05 00:22:27;
+  mclt 1800;
+}
+lease 192.168.60.132 {
+  starts 5 2025/04/04 11:51:47;
+  ends 5 2025/04/04 12:01:47;
+  tstp 5 2025/04/04 12:01:47;
+  tsfp 5 2025/04/04 12:06:47;
+  atsfp 5 2025/04/04 12:06:47;
+  cltt 5 2025/04/04 12:06:58;
+  binding state free;
+  hardware ethernet 08:00:27:e0:38:81;
+  set vendor-class-identifier = "Linux";
+}
+lease 192.168.60.191 {
+  starts 6 2025/04/05 00:22:21;
+  ends 6 2025/04/05 00:32:21;
+  tstp 5 2025/04/04 12:15:19;
+  tsfp 6 2025/04/05 00:37:21;
+  atsfp 6 2025/04/05 00:37:21;
+  cltt 5 2025/04/04 12:00:19;
+  binding state active;
+  next binding state expired;
+  hardware ethernet 08:00:27:e0:38:81;
+  uid "\001\010\000'\3408\201";
+  client-hostname "usuario-VirtualBox";
+}
+
+failover peer "dhcp-failover" state {
+  my state normal at 6 2025/04/05 00:22:27;
+  partner state normal at 6 2025/04/05 00:22:27;
+  mclt 1800;
+}
+lease 192.168.60.191 {
+  starts 6 2025/04/05 00:27:21;
+  ends 6 2025/04/05 00:37:21;
+  tstp 5 2025/04/04 12:15:19;
+  tsfp 6 2025/04/05 00:42:21;
+  atsfp 6 2025/04/05 00:42:21;
+  cltt 5 2025/04/04 12:00:19;
+  binding state active;
+  next binding state expired;
+  hardware ethernet 08:00:27:e0:38:81;
+  uid "\001\010\000'\3408\201";
+  client-hostname "usuario-VirtualBox";
+}
+lease 192.168.60.191 {
+  starts 6 2025/04/05 00:32:21;
+  ends 6 2025/04/05 00:42:21;
+  tstp 5 2025/04/04 12:15:19;
+  tsfp 6 2025/04/05 00:47:21;
+  atsfp 6 2025/04/05 00:47:21;
+  cltt 5 2025/04/04 12:00:19;
+  binding state active;
+  next binding state expired;
+  hardware ethernet 08:00:27:e0:38:81;
+  uid "\001\010\000'\3408\201";
+  client-hostname "usuario-VirtualBox";
+}
+lease 192.168.60.191 {
+  starts 6 2025/04/05 00:37:22;
+  ends 6 2025/04/05 00:47:22;
+  tstp 5 2025/04/04 12:15:19;
+  tsfp 6 2025/04/05 00:52:22;
+  atsfp 6 2025/04/05 00:52:22;
+  cltt 5 2025/04/04 12:00:19;
+  binding state active;
+  next binding state expired;
+  hardware ethernet 08:00:27:e0:38:81;
+  uid "\001\010\000'\3408\201";
+  client-hostname "usuario-VirtualBox";
+}

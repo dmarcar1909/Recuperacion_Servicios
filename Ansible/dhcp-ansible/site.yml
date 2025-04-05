@@ -1,0 +1,5 @@
+- name: Configurar servidores DHCP
+  hosts: all
+  become: yes
+  roles:
+    - dhcp-server

@@ -1,0 +1,35 @@
+---
+# vars file for roles/dhcp-server
+subnets_clasificadas:
+  - red: 192.168.50.0
+    router: 192.168.50.254
+    broadcast: 192.168.50.255
+    windows_range: "192.168.50.10 192.168.50.100"
+    linux_range: "192.168.50.101 192.168.50.160"
+    otros_range: "192.168.50.161 192.168.50.220"
+
+  - red: 192.168.51.0
+    router: 192.168.51.254
+    broadcast: 192.168.51.255
+    windows_range: "192.168.51.10 192.168.51.100"
+    linux_range: "192.168.51.101 192.168.51.160"
+    otros_range: "192.168.51.161 192.168.51.220"
+
+  - red: 192.168.60.0
+    router: 192.168.60.254
+    broadcast: 192.168.60.255
+    windows_range: "192.168.60.10 192.168.60.100"
+    linux_range: "192.168.60.101 192.168.60.160"
+    otros_range: "192.168.60.161 192.168.60.220"
+
+  - red: 192.168.70.0
+    router: 192.168.70.254
+    broadcast: 192.168.70.255
+    windows_range: "192.168.70.10 192.168.70.100"
+    linux_range: "192.168.70.101 192.168.70.160"
+    otros_range: "192.168.70.161 192.168.70.220"
+
+reservas:
+  - nombre: "windows_static"
+    mac: "08:00:27:9A:35:CF"
+    ip: "192.168.70.235"
