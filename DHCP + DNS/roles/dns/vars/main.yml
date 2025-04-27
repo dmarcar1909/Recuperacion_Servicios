@@ -1,0 +1,10 @@
+---
+# vars file for roles/dns
+tsig_secret: "iL4lS4ew5BqXjHGh5Xz77w=="
+zonas:
+  - { nombre: "damian.local", fichero: "db.damian.local" }
+  - { nombre: "53.168.192.in-addr.arpa", fichero: "db.53.168.192" }
+  - { nombre: "54.168.192.in-addr.arpa", fichero: "db.54.168.192" }
+  - { nombre: "60.168.192.in-addr.arpa", fichero: "db.60.168.192" }
+  - { nombre: "70.168.192.in-addr.arpa", fichero: "db.70.168.192" }
+  - { nombre: "5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa", fichero: "db.5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa" }

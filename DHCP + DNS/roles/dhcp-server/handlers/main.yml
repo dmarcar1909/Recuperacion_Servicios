@@ -1,0 +1,13 @@
+---
+# handlers file for roles/dhcp-server
+- name: Reiniciar DHCP
+  systemd:
+    name: isc-dhcp-server
+    state: restarted
+  tags: dhcp
+
+- name: Reiniciar Chrony
+  service:
+    name: chrony
+    state: restarted
+  tags: dhcp

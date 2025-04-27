@@ -1,0 +1,93 @@
+- name: Instalar Bind9 y utilidades
+  apt:
+    name:
+      - bind9
+      - bind9-utils
+      - dnsutils
+    state: present
+    update_cache: yes
+  tags: dns
+
+- name: Crear archivo ddns.key
+  copy:
+    dest: /etc/bind/ddns.key
+    content: |
+      key DHCP_UPDATER {
+        algorithm HMAC-MD5;
+        secret "{{ tsig_secret }}";
+      };
+    owner: bind
+    group: bind
+    mode: '0640'
+  tags: dns
+
+- name: Permitir bind9 en ufw si está instalado
+  command: ufw allow bind9
+  when: ansible_facts.packages['ufw'] is defined
+  ignore_errors: yes
+  tags: dns
+
+- name: Borrar si existe el direcotiro de zonas
+  file:
+    path: /etc/bind/zonas
+    state: absent
+  tags: dns
+
+- name: Crear el directorio de zonas
+  file:
+    path: /etc/bind/zonas
+    state: directory
+    owner: bind
+    group: bind
+    mode: '0755'
+  tags: dns
+
+- name: Copiar archivos de zona
+  copy:
+    src: "zonas/{{ item }}"
+    dest: "/etc/bind/zonas/{{ item }}"
+  loop:
+    - db.damian.local
+    - db.60.168.192
+    - db.70.168.192
+    - db.53.168.192
+    - db.54.168.192
+    - db.5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa
+  tags: dns
+
+- name: Plantilla de named.conf.options
+  template:
+    src: named.conf.options.j2
+    dest: /etc/bind/named.conf.options
+  notify: Reiniciar bind9
+  tags: dns
+
+- name: Plantilla de named.conf.local
+  template:
+    src: named.conf.local.j2
+    dest: /etc/bind/named.conf.local
+  notify: Reiniciar bind9
+  tags: dns
+
+- name: Verificar sintaxis de bind9
+  command: named-checkconf
+  tags: dns
+
+- name: Verificar zonas DNS
+  command: named-checkzone {{ item.nombre }} /etc/bind/zonas/{{ item.fichero }}
+  loop:
+    - { nombre: damian.local, fichero: db.damian.local }
+    - { nombre: 60.168.192.in-addr.arpa, fichero: db.60.168.192 }
+    - { nombre: 70.168.192.in-addr.arpa, fichero: db.70.168.192 }
+  tags: dns
+
+- name: Reiniciar Bind9
+  service:
+    name: bind9
+    state: restarted
+    enabled: yes
+  tags: dns
+
+- name: Configurar archivos /etc/systemd/resolved.conf
+  import_tasks: resolved.yml
+  tags: dns

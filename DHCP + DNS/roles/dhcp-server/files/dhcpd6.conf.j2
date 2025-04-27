@@ -1,0 +1,25 @@
+##### ARCHIVO DE CONFIGURACIÓN PARA DHCPv6 #####
+# Archivo: roles/dhcp-server/templates/dhcpd6.conf.j2
+option dhcp6.info-refresh-time 21600;
+option dhcp6.domain-search "damian.local";
+
+subnet6 2014:13:15:50::/64 {
+  option dhcp6.name-servers 2001:4860:4860::8888;
+  option dhcp6.domain-search "damian.local";
+}
+
+subnet6 2014:13:15:51::/64 {
+  option dhcp6.name-servers 2001:4860:4860::8888;
+  option dhcp6.domain-search "damian.local";
+}
+
+subnet6 2014:13:15:60::/64 {
+  option dhcp6.name-servers 2001:4860:4860::8888;
+  option dhcp6.domain-search "damian.local";
+}
+
+subnet6 2014:13:15:70::/64 {
+  option dhcp6.name-servers 2001:4860:4860::8888;
+  option dhcp6.domain-search "damian.local";
+}
+

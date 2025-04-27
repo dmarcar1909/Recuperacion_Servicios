@@ -1,0 +1,11 @@
+- name: Configurar servidores DHCP
+  hosts: dhcp_servers
+  become: true
+  roles:
+    - { role: dhcp-server, tags: ['dhcp'] }
+
+- name: Configurar DNS
+  hosts: dns_servers
+  become: true
+  roles:
+    - { role: dns, tags: ['dns'] }

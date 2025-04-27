@@ -1,0 +1,13 @@
+---
+# handlers file for roles/dns
+- name: Reiniciar bind9
+  service:
+    name: bind9
+    state: restarted
+  tags: dns
+
+- name: Reiniciar systemd-resolved
+  service:
+    name: systemd-resolved
+    state: restarted
+  tags: dns

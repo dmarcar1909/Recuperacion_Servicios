@@ -1,0 +1,22 @@
+;
+; BIND data files for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	dns1.damian.local. root.damian.local. (
+			3	; Serial
+			604800	; Refresh
+			86400	; Retry
+			2419200	; Expire
+			604800 )	; Negative Cache TTL
+;
+@	IN	NS	dns1.damian.local.
+dns1	IN	A	192.168.53.1
+dns2	IN	A	192.168.54.1
+ansible	IN	A	192.168.52.1
+dhcp1	IN	A	192.168.50.1
+dhcp2	IN	A	192.168.51.1
+dns1	IN	AAAA	2014:13:15:53::1
+dns2	IN	AAAA	2014:13:15:54::1
+ansible	IN	AAAA	2014:13:15:52::1
+dhcp1	IN	AAAA	2014:13:15:50::1
+dhcp2	IN	AAAA	2014:13:15:51::1

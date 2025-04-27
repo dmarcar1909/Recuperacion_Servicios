@@ -1,0 +1,61 @@
+---
+# tasks file for roles/dhcp-server
+- name: Instalar servidor DHCP
+  apt:
+    name: isc-dhcp-server
+    state: present
+    update_cache: yes
+  tags: dhcp
+
+- name: Crear el directorio /etc/bind
+  file:
+    path: /etc/bind
+    state: directory
+    owner: root
+    group: root
+    mode: '0640'
+  tags: dhcp
+
+- name: Copiar ddns.key con scp
+  command: scp /etc/bind/ddns.key root@{{ ansible_host }}:/etc/bind/ddns.key
+  delegate_to: dns_primario
+  tags: dhcp
+
+- name: Copiar configuración DHCP desde plantilla
+  template:
+    src: dhcpd.conf.j2
+    dest: /etc/dhcp/dhcpd.conf
+    owner: root
+    group: root
+    mode: '0644'
+  tags: dhcp
+
+- name: Copiar plantilla DHCPv6 (dhcpd6.conf)
+  copy:
+    src: dhcpd6.conf.j2
+    dest: /etc/dhcp/dhcpd6.conf
+    owner: root
+    group: root
+    mode: '0664'
+  tags: dhcp
+
+- name: Configurar archivo /etc/default/isc-dhcp-server
+  template:
+    src: isc-dhcp-server.j2
+    dest: /etc/default/isc-dhcp-server
+    owner: root
+    group: root
+    mode: '0664'
+  notify: Reiniciar DHCP
+  tags: dhcp
+
+- name: Asegurar que el servicio DHCP está activo
+  service:
+    name: isc-dhcp-server
+    state: restarted
+    enabled: yes
+  tags: dhcp
+
+- name: Configurar Chrony
+  import_tasks: chrony.yml
+  tags: dhcp

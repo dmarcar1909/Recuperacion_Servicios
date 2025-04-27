@@ -1,0 +1,6 @@
+pool ntp.ubuntu.com iburst
+driftfile /var/lib/chrony/chrony.drift
+makestep 1.0 3
+rtcsync
+allow 192.168.0.0/16
+logdir /var/log/chrony
