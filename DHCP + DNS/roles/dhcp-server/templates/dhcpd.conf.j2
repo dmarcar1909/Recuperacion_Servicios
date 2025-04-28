@@ -2,6 +2,12 @@ include "/etc/bind/ddns.key";
 
 ddns-update-style interim;
 ignore client-updates;
+update-static-leases on;
+ddns-domainname "damian.local.";
+ddns-rev-domainname "in-addr.arpa.";
+option domain-name "damian.local";
+option domain-name-servers 192.168.53.1, 192.168.54.1;
+option subnet-mask 255.255.255.0;
 
 zone damian.local. {
   primary 192.168.53.1;
@@ -20,8 +26,6 @@ zone 5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa. {
 
 default-lease-time 600;
 max-lease-time 7200;
-
-ddns-update-style none;
 
 authoritative;
 
@@ -97,3 +101,4 @@ host {{ reserva.nombre }} {
   fixed-address {{ reserva.ip }};
 }
 {% endfor %}
+

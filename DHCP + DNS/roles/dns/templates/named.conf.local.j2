@@ -3,12 +3,12 @@ include "/etc/bind/ddns.key";
 {% for zona in zonas %}
 zone "{{ zona.nombre }}" IN {
   type {{ tipo_zona }};
-  file "/etc/bind/zonas/{{ zona.fichero }}";
-  {% if tipo_zona == 'master' %}
+  file "/var/lib/bind/{{ zona.fichero }}";
+{% if tipo_zona == 'master' %}
   allow-transfer { 192.168.54.1; };
   allow-update { key DHCP_UPDATER; };
   {% else %}
   masters { 192.168.53.1; };
-  {% endif %}
+{% endif %}
 };
 {% endfor %}

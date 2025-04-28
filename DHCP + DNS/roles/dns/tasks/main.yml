@@ -27,32 +27,30 @@
   ignore_errors: yes
   tags: dns
 
-- name: Borrar si existe el direcotiro de zonas
-  file:
-    path: /etc/bind/zonas
-    state: absent
-  tags: dns
-
-- name: Crear el directorio de zonas
-  file:
-    path: /etc/bind/zonas
-    state: directory
+- name: Crear archivos de zonas directas
+  template:
+    src: db.directa.j2
+    dest: "/var/lib/bind/db.{{ item }}"
     owner: bind
     group: bind
-    mode: '0755'
+    mode: '0644'
+  loop:
+    - damian.local
   tags: dns
 
-- name: Copiar archivos de zona
-  copy:
-    src: "zonas/{{ item }}"
-    dest: "/etc/bind/zonas/{{ item }}"
+- name: Crear archivos de zonas inversas
+  template:
+    src: db.inversa.j2
+    dest: "/var/lib/bind/db.{{ item }}"
+    owner: bind
+    group: bind
+    mode: '0644'
   loop:
-    - db.damian.local
-    - db.60.168.192
-    - db.70.168.192
-    - db.53.168.192
-    - db.54.168.192
-    - db.5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa
+    - 53.168.192.in-addr.arpa
+    - 54.168.192.in-addr.arpa
+    - 60.168.192.in-addr.arpa
+    - 70.168.192.in-addr.arpa
+    - 5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa
   tags: dns
 
 - name: Plantilla de named.conf.options
@@ -74,13 +72,16 @@
   tags: dns
 
 - name: Verificar zonas DNS
-  command: named-checkzone {{ item.nombre }} /etc/bind/zonas/{{ item.fichero }}
+  command: named-checkzone {{ item.nombre }} /var/lib/bind/{{ item.fichero }}
   loop:
     - { nombre: damian.local, fichero: db.damian.local }
     - { nombre: 60.168.192.in-addr.arpa, fichero: db.60.168.192 }
     - { nombre: 70.168.192.in-addr.arpa, fichero: db.70.168.192 }
+    - { nombre: 53.168.192.in-addr.arpa, fichero: db.53.168.192 }
+    - { nombre: 54.168.192.in-addr.arpa, fichero: db.54.168.192 }
+    - { nombre: 5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa, fichero: db.5.1.0.0.3.1.0.0.4.1.0.2.ip6.arpa }
   tags: dns
-
+ 
 - name: Reiniciar Bind9
   service:
     name: bind9
