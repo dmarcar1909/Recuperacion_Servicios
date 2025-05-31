@@ -1,2 +1,13 @@
+# Archivos generados por Terraform
 .terraform/
-terraform.tfstate*
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+
+# Archivos de logs o temporales
+*.log
+
+# Archivos generados automáticamente (copias o plantillas procesadas)
+scripts/bootstrap_apache.sh
+scripts/bootstrap_apache.sh.tpl.save
