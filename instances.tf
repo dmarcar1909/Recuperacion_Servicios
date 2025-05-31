@@ -1,7 +1,7 @@
 # Par de claves para conectar por SSH (puedes personalizar o importar uno ya creado)
 resource "aws_key_pair" "main_key" {
   key_name   = "web-key"
-  public_key = file("~/.ssh/id_rsa.pub")
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDRZrR6UbmRbzYTZstmgDUGHxrdwJVLOYi824XHaJCa99pIp4DlAFwUcZWQmSghYypu4WpZd1CPfjCSt36u2EOt6iGtOgc55GvFSRfZf0THJLMPTCi5/g1+LfgNUfEsxkvOGTrIHInv+64MhdlU91fIG1WYwhNfwh1F0Ro1WFgU/CUN3NxkrPw3QIzYpDlk4Zm1GAqhuvc2sOz0Q6l9DeWhV9HGYDVIHqlUolpH7RxZlkHv2BeOMJuyaAwg+mNUnBI0if2iHSkzPiG5NGoIYHSXQ+g0LP1VQA/swLiHSC4lKQ/Lb1Gru4QxiV69VUKRCfXvLpNKmHSQV84Sxl5/MkbDOeRDtTGqjAeZhEZROJE6yXc5oYR4drnh1r/HQq6VhAhvyDwIY5cQ4pkK9JglaY0JoyEOu2Bio4dMv7FCxtzpLXCYW+jYlFOx1SfbWO1FGAB5Mv9mxerp63/sFsGqYEPKaM5ggNmEONck4SkcxKGQbAdDfAjlcnuPVJ7+9PLeSWU= damian@terraform"
 }
 
 # Security Group común para acceso público (HTTP/HTTPS, SSH, ICMP)
