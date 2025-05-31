@@ -8,25 +8,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout del repositorio
-      uses: actions/checkout@v3
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
 
-    - name: Configurar Terraform
-      uses: hashicorp/setup-terraform@v3
-      with:
-        terraform_version: 1.5.0
+      - name: Configurar Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.5.5
 
-    - name: Configurar credenciales de AWS
-      uses: aws-actions/configure-aws-credentials@v3
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
-        aws-region: us-east-1
+      - name: Configurar credenciales de AWS
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
+          aws-region: us-east-1
 
-    - name: Inicializar Terraform
-      run: terraform init -reconfigure
+      - name: Inicializar Terraform
+        run: terraform init -reconfigure
 
-    - name: Destruir Terraform
-      run: |
-        terraform destroy -auto-approve
+      - name: Validar Terraform
+        run: terraform validate
+
+      - name: Ver recursos gestionados (terraform state list)
+        run: terraform state list
+
+      - name: Plan de destrucción
+        run: terraform plan -destroy
+
+      - name: Destruir infraestructura
+        run: terraform destroy -auto-approve
+
