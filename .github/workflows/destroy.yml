@@ -1,7 +1,7 @@
 name: Terraform Destroy
 
 on:
-  workflow_dispatch:  # <- Esto permite lanzarlo manualmente desde GitHub
+  workflow_dispatch:
 
 jobs:
   terraform-destroy:
