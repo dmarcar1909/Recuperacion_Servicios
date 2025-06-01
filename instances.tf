@@ -177,10 +177,17 @@ resource "aws_instance" "nginx" {
   associate_public_ip_address = false
   vpc_security_group_ids = [aws_security_group.public_sg.id]
   key_name               = aws_key_pair.main_key.key_name
-  user_data              = file("scripts/bootstrap_nginx.sh")
+  user_data = data.template_file.bootstrap_nginx.rendered
 
   tags = {
     Name = "nginx-server"
+  }
+}
+
+data "template_file" "bootstrap_nginx" {
+  template = file("${path.module}/scripts/bootstrap_nginx.sh.tpl")
+  vars = {
+    apache_private_ip = aws_instance.apache.private_ip
   }
 }
 
