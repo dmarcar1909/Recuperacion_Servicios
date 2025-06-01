@@ -22,8 +22,8 @@ server {
 
     location /backend/ {
         proxy_pass http://18.205.102.76/;  # IP elástica de Apache
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host \$host;
+        proxy_set_header X-Real-IP \$remote_addr;
     }
 }
 EOF
