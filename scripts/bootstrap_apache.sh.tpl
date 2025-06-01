@@ -316,9 +316,9 @@ RUN apt update && \
       -out /usr/local/apache2/conf/ssl/apache.crt \
       -subj "/C=ES/ST=Andalucia/L=Granada/O=Iliberis/OU=ASIR/CN=damian.work.gd"
 
-EXPOSE 8080 443
+EXPOSE 8080 443 80
 EOF
 
 # Lanzar contenedor
 docker build -t apache-ldap .
-docker run -d -p 8080:8080 -p 443:443 --name apache-ldap apache-ldap
+docker run -d -p 80:80 -p 8080:8080 -p 443:443 --name apache-ldap apache-ldap
