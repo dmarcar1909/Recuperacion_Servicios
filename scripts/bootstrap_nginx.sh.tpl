@@ -19,7 +19,7 @@ server {
 
     location /backend/ {
         proxy_pass http://${apache_private_ip}/;
-	rewrite ^/backend(/.*)$ $1 break;
+	rewrite ^/backend?(.*)$ $1 break;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
     }
@@ -32,4 +32,4 @@ docker run -d \
   -v /srv/nginx/html:/usr/share/nginx/html \
   -v /srv/nginx/conf/default.conf:/etc/nginx/conf.d/default.conf \
   nginx:latest
-
+S
