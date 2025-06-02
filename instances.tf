@@ -103,7 +103,7 @@ resource "aws_security_group" "public_sg_vpc2" {
   }
   
   ingress {
-    description = "Permitir tráfico desde VPC1 (nginx) a Apache"
+    description = "Permitir trafico desde VPC1 a Apache"
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
