@@ -161,6 +161,8 @@ Listen 80
     SSLCertificateFile "/usr/local/apache2/conf/ssl/apache.crt"
     SSLCertificateKeyFile "/usr/local/apache2/conf/ssl/apache.key"
 
+    Alias /backend/ "/usr/local/apache2/html/"
+
     <Directory "/usr/local/apache2/html">
         Options Indexes FollowSymLinks
         AllowOverride All
@@ -190,6 +192,7 @@ Listen 80
 <VirtualHost *:443>
     ServerName vhost1.damian.work.gd
     DocumentRoot "/usr/local/apache2/html/vhost1"
+    Alias /backend/ "/usr/local/apache2/html/"
 
     <Directory "/usr/local/apache2/html/vhost1">
         Options Indexes FollowSymLinks
