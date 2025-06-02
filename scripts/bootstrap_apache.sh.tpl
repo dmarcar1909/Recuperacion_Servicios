@@ -134,7 +134,6 @@ LogLevel debug
 
 Listen 443
 Listen 80
-Listen 8080
 
 # Sitio principal (con dominio real público)
 #<VirtualHost *:8080>
