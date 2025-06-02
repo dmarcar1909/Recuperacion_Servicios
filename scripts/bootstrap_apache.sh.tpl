@@ -151,6 +151,7 @@ Listen 80
 <VirtualHost *:8080>
     ServerName damian.work.gd
     Redirect permanent / https://damian.work.gd/
+    Alias /backend/ "/usr/local/apache2/html/"
 </VirtualHost>
 
 <VirtualHost *:443>
