@@ -151,7 +151,6 @@ Listen 80
 <VirtualHost *:8080>
     ServerName damian.work.gd
     Redirect permanent / https://damian.work.gd/
-    Alias /backend/ "/usr/local/apache2/html/"
 </VirtualHost>
 
 <VirtualHost *:443>
@@ -193,7 +192,6 @@ Listen 80
 <VirtualHost *:443>
     ServerName vhost1.damian.work.gd
     DocumentRoot "/usr/local/apache2/html/vhost1"
-    Alias /backend/ "/usr/local/apache2/html/"
 
     <Directory "/usr/local/apache2/html/vhost1">
         Options Indexes FollowSymLinks

@@ -18,7 +18,7 @@ server {
     }
 
     location /backend/ {
-        proxy_pass http://${apache_private_ip}/;
+        proxy_pass https://${apache_private_ip}/;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
     }
