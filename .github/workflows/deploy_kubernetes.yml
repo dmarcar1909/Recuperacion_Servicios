@@ -22,5 +22,9 @@ jobs:
     - name: Update kubeconfig
       run: aws eks update-kubeconfig --name componentes-cluster
 
+    - name: Borrar servicio antiguo (web-service)
+      run: kubectl delete svc web-service || true
+
     - name: Apply Kubernetes files
       run: kubectl apply -f k8s/
+
