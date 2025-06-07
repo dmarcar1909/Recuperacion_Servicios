@@ -62,7 +62,42 @@ kubectl apply -f k8s/
 - No permite lanzar nodos correctamente (`NodeCreationFailure`)
 - Por eso no se puede probar la app completa en EKS, pero **los archivos están 100 % listos**
 
+
 ---
+
+## 🧪 Cómo usar y comprobar esta práctica
+
+1. **Opción A: en Minikube (recomendado para validación local)**
+
+```bash
+minikube start --memory=3000mb --driver=docker
+kubectl apply -f k8s/
+minikube service web-service
+```
+
+2. **Opción B: desde GitHub Actions contra EKS**
+
+> Solo funcionará si el clúster tiene nodos activos y permisos habilitados.
+
+```bash
+# Configura credenciales con configure-aws-credentials
+# Luego:
+aws eks update-kubeconfig --name componentes-cluster
+kubectl apply -f k8s/
+```
+
+3. Accede a la aplicación desde el navegador usando la URL proporcionada por `minikube service web-service`.
+
+
+---
+
+## 📝 Notas sobre el proyecto web
+
+Esta página web fue desarrollada por mí el año pasado como parte de otro módulo.  
+Debido al tiempo transcurrido, no he podido encontrar la **versión final**, sino una versión **anterior e incompleta**.
+
+Aun así, es totalmente funcional a efectos de esta práctica, ya que permite probar correctamente la conexión a la base de datos, los contenedores, y el despliegue en Kubernetes.
+
 
 ## 💡 Conclusión
 
