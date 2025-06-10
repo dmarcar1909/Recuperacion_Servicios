@@ -7,8 +7,8 @@ systemctl start docker
 # Crear directorios
 mkdir -p /home/ubuntu/apache-ldap/html/idiomas
 mkdir -p /home/ubuntu/apache-ldap/htaccess
-mkdir -p /home/ubuntu/apache-ldap/html/vhost1
-mkdir -p /home/ubuntu/apache-ldap/html/vhost2
+mkdir -p /home/ubuntu/apache-ldap/html/app1
+mkdir -p /home/ubuntu/apache-ldap/html/app2
 
 # Espacio de usuarios
 mkdir -p /home/ubuntu/apache-ldap/home/usuario1/public_html
@@ -113,15 +113,15 @@ cat <<EOF > html/idiomas/bienvenida.es.html
 <p>Esta es la página de bienvenida en español.</p>
 EOF
 
-# Contenido de vhost1
-cat <<EOF > html/vhost1/index.html
-<h1>Bienvenido a vhost1.damian.local</h1>
+# Contenido de app1
+cat <<EOF > html/app1/index.html
+<h1>Bienvenido a app1.damian.com</h1>
 <p>Este es el sitio virtual número 1</p>
 EOF
 
-# Contenido de vhost2
-cat <<EOF > html/vhost2/index.html
-<h1>Bienvenido a vhost2.damian.local</h1>
+# Contenido de app2
+cat <<EOF > html/app2/index.html
+<h1>Bienvenido a app2.damian.com</h1>
 <p>Este es el sitio virtual número 2</p>
 EOF
 
@@ -173,10 +173,10 @@ Listen 80
 
 # Sitio virtual 1
 #<VirtualHost *:8080>
-#    ServerName vhost1.damian.work.gd
-#    DocumentRoot "/usr/local/apache2/html/vhost1"
+#    ServerName app1.damian.work.gd
+#    DocumentRoot "/usr/local/apache2/html/app1"
 #
-#    <Directory "/usr/local/apache2/html/vhost1">
+#    <Directory "/usr/local/apache2/html/app1">
 #        Options Indexes FollowSymLinks
 #        AllowOverride None
 #        Require all granted
@@ -185,15 +185,15 @@ Listen 80
 #</VirtualHost>
 
 <VirtualHost *:8080>
-    ServerName vhost1.damian.work.gd
-    Redirect permanent / https://vhost1.damian.work.gd/
+    ServerName app1.damian.work.gd
+    Redirect permanent / https://app1.damian.work.gd/
 </VirtualHost>
 
 <VirtualHost *:443>
-    ServerName vhost1.damian.work.gd
-    DocumentRoot "/usr/local/apache2/html/vhost1"
+    ServerName app1.damian.work.gd
+    DocumentRoot "/usr/local/apache2/html/app1"
 
-    <Directory "/usr/local/apache2/html/vhost1">
+    <Directory "/usr/local/apache2/html/app1">
         Options Indexes FollowSymLinks
         AllowOverride None
         Require all granted
@@ -203,10 +203,10 @@ Listen 80
 
 # Sitio virtual 2
 #<VirtualHost *:8080>
-#    ServerName vhost2.damian.work.gd
-#    DocumentRoot "/usr/local/apache2/html/vhost2"
+#    ServerName app2.damian.work.gd
+#    DocumentRoot "/usr/local/apache2/html/app2"
 #
-#    <Directory "/usr/local/apache2/html/vhost2">
+#    <Directory "/usr/local/apache2/html/app2">
 #        Options Indexes FollowSymLinks
 #        AllowOverride None
 #        Require all granted
@@ -215,15 +215,15 @@ Listen 80
 #</VirtualHost>
 
 <VirtualHost *:8080>
-    ServerName vhost2.damian.work.gd
-    Redirect permanent / https://vhost2.damian.work.gd/
+    ServerName app2.damian.work.gd
+    Redirect permanent / https://app2.damian.work.gd/
 </VirtualHost>
 
 <VirtualHost *:443>
-    ServerName vhost2.damian.work.gd
-    DocumentRoot "/usr/local/apache2/html/vhost2"
+    ServerName app2.damian.work.gd
+    DocumentRoot "/usr/local/apache2/html/app2"
 
-    <Directory "/usr/local/apache2/html/vhost2">
+    <Directory "/usr/local/apache2/html/app2">
         Options Indexes FollowSymLinks
         AllowOverride None
         Require all granted
@@ -301,8 +301,8 @@ RUN useradd -m usuario1
 
 COPY html/ /usr/local/apache2/html/
 COPY htaccess/.htaccess /usr/local/apache2/html/
-COPY htaccess/.htaccess /usr/local/apache2/html/vhost1/
-COPY htaccess/.htaccess /usr/local/apache2/html/vhost2/
+COPY htaccess/.htaccess /usr/local/apache2/html/app1/
+COPY htaccess/.htaccess /usr/local/apache2/html/app2/
 COPY apache-ldap.conf /usr/local/apache2/conf/extra/
 COPY home/ /home/
 
