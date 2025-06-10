@@ -36,6 +36,6 @@ resource "aws_route_table_association" "assoc_vpc1" {
 
 resource "aws_eip_association" "nginx_assoc" {
   instance_id   = aws_instance.nginx.id
-  allocation_id = "eipalloc-013b7fa67db1995d9"
+  allocation_id = "eipalloc-03d0692d32438aeef" # ID - IP Elástica
 }
 
