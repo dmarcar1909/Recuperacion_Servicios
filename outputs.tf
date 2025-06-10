@@ -5,10 +5,10 @@ output "ldap_private_ip" {
 
 output "nginx_public_ip" {
   description = "IP pública del servidor Nginx (asociada manualmente)"
-  value       = "18.206.34.224"
+  value       = "52.204.227.70"
 }
 
 output "apache_public_ip" {
   description = "IP pública del servidor Apache (asociada manualmente)"
-  value       = "18.205.102.76"
+  value       = "54.173.5.158"
 }
