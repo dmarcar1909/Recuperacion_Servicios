@@ -88,7 +88,7 @@ resource "aws_route_table_association" "assoc_vpc2_private" {
 # IP elástica Apache
 resource "aws_eip_association" "apache_assoc" {
   instance_id   = aws_instance.apache.id
-  allocation_id = "eipalloc-0897bf2dfa043504a"
+  allocation_id = "eipalloc-0948b3f091facffb0" # Cambiando ID IP Elástica
 }
 
 
