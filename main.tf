@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "terraform-estado-damian"
+    bucket = "s3-examen-damian"
     key    = "infraestructura/terraform.tfstate"
     region = "us-east-1"
     encrypt = true
