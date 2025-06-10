@@ -3,7 +3,7 @@ name: Deploy Apache + LDAP
 on:
   push:
     branches:
-      - WEB
+      - EXAMEN
 
 jobs:
   terraform-deploy:
